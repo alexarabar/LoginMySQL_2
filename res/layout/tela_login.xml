@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gears"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <TextView
+        android:text="Faça Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editEmail1"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="senha"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editSenha1"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:text="Login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="20px"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/modelo_botao"/>
+    <TextView
+        android:gravity="center"
+        android:text="não tem uma conta?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#4444EE"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:id="@+id/txtCadastro" />
+</LinearLayout>
